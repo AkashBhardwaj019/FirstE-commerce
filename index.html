@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Store</title>
+
+    <!--Bootstrap CSS-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!--Linking our stylesheet CSS-->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--NAVIGATION BAR-->
+
+    <section id="header">
+
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" height="50" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="ti-align-justify navbar-toggler-icon"></span>
+                <!--<span class="navbar-toggler-icon"></span>--> 
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#products">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#specials">Specials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#contactus">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#account">Account</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </section>
+
+    <!--HOME SECTION-->
+
+    <section id="home" class="home pt-5 overflow-hidden">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="home-banner home-banner-1">
+              <div class="home-banner-text">
+                    <h1>Games</h1>
+                    <h2>72% Discount only on A-Store</h2>
+                    <a href="#" class="btn btn-danger text-uupercase mt-4">Our Products</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="home-banner home-banner-2">
+              <div class="home-banner-text">
+                    <h1></h1>
+                    <h2></h2>
+                    <a href="#" class="btn btn-danger text-uupercase mt-4">Our Products</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="home-banner home-banner-3">
+              <div class="home-banner-text">
+                    <h1></h1>
+                    <h2></h2>
+                    <a href="#" class="btn btn-danger text-uupercase mt-4">Our Products</a>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <span class="ti-angle-left-slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <span class="ti-angle-right-slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+      <!--OFFER SECTION-->
+
+      <div class="offers">
+        <div class="container">
+          <div class="row">
+            <!--Offer One-->
+            <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+              <a href="#">
+                <div class="offer-box text-centre position-relative">
+                  <div class="offer-inner">
+                    <div class="offer-image position-relative overflow-hidden">
+                      <img src="images/Products/buy-1.jpg" alt="Offers" class="img-fluid">
+                      <div class="offer-overlay"></div>
+                    </div>
+                    <div class="offer-info">
+                      <div class="offer-info-inner">
+                        <p class="heading-bigger text-capitalize">Sale 50% OFF</p>
+                        <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Order Now</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4 d-flex flex-column justify-content-between">
+              <a href="#">
+                <div class="offer-box text-centre position-relative mb-4 mb-sm-0 mb-lg-0">
+                  <div class="offer-inner">
+                    <div class="offer-image position-relative overflow-hidden">
+                      <img src="images/Products/buy-2.jpg" alt="Offers" class="img-fluid">
+                      <div class="offer-overlay"></div>
+                    </div>
+                    <div class="offer-info">
+                      <div class="offer-info-inner">
+                        <p class="heading-bigger text-capitalize">Sale 70% OFF</p>
+                        <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Order Now</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+              <a href="#">
+                <div class="offer-box text-centre position-relative">
+                  <div class="offer-inner">
+                    <div class="offer-image position-relative overflow-hidden">
+                      <img src="images/Products/buy-3.jpg" alt="Offers" class="img-fluid">
+                      <div class="offer-overlay"></div>
+                    </div>
+                    <div class="offer-info">
+                      <div class="offer-info-inner">
+                        <p class="heading-bigger text-capitalize">Sale 100% OFF</p>
+                        <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Order Now</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--BRAND SECTION-->
+
+    <section id="brand" class="container">
+             <div class="row m-0 py-5">
+                  <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/logo-coca-cola.png" alt="" >
+                  <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/logo-godrej.png" alt="" >
+                  <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/logo-oppo.png" alt="" >
+                  <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/logo-paypal.png" alt="" >
+                  <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/logo-philips.png" alt="" >
+                  <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/logo.jpg" alt="" >
+             </div>
+    </section>
+
+    <!--PRODUCTS SECTION-->
+
+    <main class="mt-5 py-5 container mx-auto pt-5">
+
+    <section id="featured">
+      <div class="container ">
+        <h3 class="text-centre">OUR FEATURED PRODUCTS</h3>
+        <hr>
+        <p>Here you check out our new products at a reasonable price only on A-Store</p>
+      </div>
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center">
+          <img class="img-fluid" src="images/Products/product-1.jpg" alt="">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h5 class="p-name">Red Printed T-Shirt</h5>
+          <p>$70 <del>$90</del></p>
+          <button type="buy-btn">BUY NOW</button>
+        </div>
+      </div>
+
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center">
+          <img class="img-fluid" src="images/Products/product-2.jpg" alt="">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h5 class="p-name">HRX-Shoes</h5>
+          <p>$50 <del>$100</del></p>
+          <button type="buy-btn">BUY NOW</button>
+        </div>
+      </div>
+
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center">
+          <img class="img-fluid mb-4" src="images/Products/product-3.jpg" alt="">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h5 class="p-name">TROUSERS</h5>
+          <p>$80 <del>$120</del></p>
+          <button type="buy-btn">BUY NOW</button>
+        </div>
+      </div>
+
+      
+    </section>
+
+  </main>
+
+
+    <!--Footer Section-->
+
+    <footer class="mt-5 py-5 container mx-auto pt-5">
+      <div class="row">
+
+        <div class="footer-one col-lg-3 col-md-6">
+               <img src="images/logo.png" alt="">
+               <p class="pt-3">bjsbfbafdjkikansfknasckna<br>jshcabjbd</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6">
+          <h5>FEATURED</h5>
+          <ul class="text-uppercase list-unstyled">
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">GAMES</a></li>
+            <li><a href="#">SHOES</a></li>
+            <li><a href="#">NEW ARRIVALS</a></li>
+            <li><a href="#">CLOTHES</a></li>
+          </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6">
+          <h5 class="pb-2 "></h5>
+          
+            <div>
+              <h5 class="text-uppercase">ADDRESS</h5>
+              <p>1234-STREET</p>
+            </div>
+            <div>
+              <h5 class="text-uppercase">CONTACT US</h5>
+              <p>12345676890</p>
+            </div>
+            <div>
+              <h5 class="text-uppercase">EMAIL US</h5>
+              <p>abcd@gmail.com</p>
+            </div>
+            
+        </div>
+
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <h5 class="pb-2">LOGOS</h5>
+
+          <div class="row">
+            <img class="img-fluid w-25 h-100 m-2" src="images/logo-oppo.png" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/logo-godrej.png" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/logo-paypal.png" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/logo-philips.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="copyright mt-5">
+        <div class="row container mx-auto">
+          <div class="col-lg-3 col-md-6 col-12">
+            <img src="images/logo-paypal.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <p>A-Store E-commerce 2022 ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+
+    
+
+    
+
+
+    
+
+
+
+
+
+
+    <!--JAVASCRIPT PLUGIN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
